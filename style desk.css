@@ -1,0 +1,21 @@
+body{
+    background-position: center;
+    background-size: cover;
+}
+.heading{
+    width: 100%;
+    top: 0;
+    font-size: 25px;
+}
+.btn{
+    color: black;
+    font-family: joker;
+    animation-name: example;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    margin-right: 10px;
+}
+@keyframes example{
+    from{box-shadow: 6px 6px 32px burlywood;}
+    to{box-shadow: 6px 6px 32px brown;}
+}
